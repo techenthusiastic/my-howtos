@@ -1,0 +1,25 @@
+{
+  "name": "my-howtos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/techenthusiastic/my-howtos.git",
+  "author": "Sachin Kumar <sinha1abc@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "commit": "cz",
+    "prepare": "husky",
+    "commitlint": "commitlint --edit"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^9.1.7"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
